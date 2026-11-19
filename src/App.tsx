@@ -1228,28 +1228,18 @@ export const App: React.FC = () => {
               </ul>
             </div>
 
-            {/* Col 4: Owner Registry, Tax ID Fields & ADV Contact */}
-            <div className="space-y-2">
+            {/* Col 4: ADV & Contact */}
+            <div className="space-y-3">
               <h3 className="text-[11px] font-black uppercase tracking-wider text-slate-950 mb-3">
-                Titolare &amp; Contatti
+                Contatti &amp; Pubblicità
               </h3>
-              <p className="text-[11px] text-slate-600 leading-snug">
-                <strong className="text-slate-900">Titolare:</strong>{' '}
-                <span className="font-mono">{LEGAL_OWNER_DETAILS.holderPlaceholder}</span>
+              <p className="text-xs text-slate-600 font-medium leading-relaxed">
+                Per collaborazioni, spazi pubblicitari o informazioni puoi scrivere direttamente a:
               </p>
-              <p className="text-[11px] text-slate-600 leading-snug">
-                <strong className="text-slate-900">P.IVA / C.F.:</strong>{' '}
-                <span className="font-mono">{LEGAL_OWNER_DETAILS.vatPlaceholder}</span>
-              </p>
-              <p className="text-[11px] text-slate-600 leading-snug">
-                <strong className="text-slate-900">Sede:</strong>{' '}
-                <span className="font-mono">{LEGAL_OWNER_DETAILS.addressPlaceholder}</span>
-              </p>
-              <p className="text-[11px] pt-1">
-                <strong className="text-slate-900 block">Email &amp; Pubblicità:</strong>
+              <p className="text-xs pt-1">
                 <a
                   href={`mailto:${LEGAL_OWNER_DETAILS.contactEmail}?subject=Contatto%20o%20Spazi%20Pubblicitari%20-%20Mi%20Stanno%20Fregando%3F`}
-                  className="font-extrabold text-slate-950 underline break-all"
+                  className="font-extrabold text-slate-950 underline break-all hover:text-emerald-700 transition-colors"
                 >
                   {LEGAL_OWNER_DETAILS.contactEmail}
                 </a>

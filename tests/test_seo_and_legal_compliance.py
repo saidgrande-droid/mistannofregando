@@ -175,6 +175,7 @@ class TestLegalComplianceAndSemanticFooter(unittest.TestCase):
 
     def test_app_semantic_headings_faq_and_legal_footer_wiring(self):
         app_tsx = read_text(os.path.join(SRC_DIR, "App.tsx"))
+        legal_modal_tsx = read_text(os.path.join(SRC_DIR, "components", "LegalModal.tsx"))
 
         # Semantic heading hierarchy: exactly one <h1> plus multiple <h2> & <h3>
         self.assertEqual(len(re.findall(r"<h1[\s>]", app_tsx)), 1, "App.tsx should render exactly one <h1>")
@@ -196,7 +197,7 @@ class TestLegalComplianceAndSemanticFooter(unittest.TestCase):
         self.assertIn("Cookie Policy", app_tsx)
         self.assertIn("Termini d&apos;Uso &amp; Disclaimer", app_tsx)
         self.assertIn("Trasparenza Pubblicitaria (AGCM)", app_tsx)
-        self.assertIn("LEGAL_OWNER_DETAILS.vatPlaceholder", app_tsx)
+        self.assertIn("LEGAL_OWNER_DETAILS.vatPlaceholder", legal_modal_tsx)
         self.assertIn("LEGAL_OWNER_DETAILS.contactEmail", app_tsx)
         self.assertIn("Preferenze Cookie", app_tsx)
         self.assertIn("<CookieBanner", app_tsx)
