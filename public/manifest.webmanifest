@@ -1,0 +1,22 @@
+{
+  "name": "Mi Stanno Fregando? — Fregometro™",
+  "short_name": "Fregometro",
+  "description": "Confronta gratis e in anonimo il tuo preventivo con i costi medi reali in 107 province italiane.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8EB",
+  "theme_color": "#0F172A",
+  "lang": "it-IT",
+  "icons": [
+    {
+      "src": "./public/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./public/og-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ]
+}

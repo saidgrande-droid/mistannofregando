@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+__pycache__/
+.agents/
+scratch/
+fregometro-production-cloudflare.zip

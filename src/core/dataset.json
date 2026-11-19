@@ -1,0 +1,1369 @@
+{
+  "categories": [
+    {
+      "id": "auto",
+      "name": "Auto",
+      "icon": "🚗",
+      "description": "Riparazioni meccaniche, tagliandi, freni, frizione e manutenzione auto"
+    },
+    {
+      "id": "casa",
+      "name": "Casa",
+      "icon": "🏠",
+      "description": "Pronto intervento idraulico, caldaie, imbiancatura, elettricisti e fabbri"
+    },
+    {
+      "id": "dentista",
+      "name": "Dentista",
+      "icon": "🦷",
+      "description": "Odontoiatria, igiene dentale, otturazioni, devitalizzazioni e impianti"
+    },
+    {
+      "id": "veterinario",
+      "name": "Veterinario",
+      "icon": "🐾",
+      "description": "Visite cliniche, vaccini, sterilizzazioni ed esami per cani e gatti"
+    },
+    {
+      "id": "cerimonie",
+      "name": "Cerimonie",
+      "icon": "💐",
+      "description": "Matrimoni, catering, ricevimenti, foto/video, fiori e musica"
+    },
+    {
+      "id": "affitti",
+      "name": "Affitti",
+      "icon": "🔑",
+      "description": "Canoni di locazione residenziale e commerciale (monolocali, bilocali, stanze)"
+    }
+  ],
+  "provinces": [
+    {
+      "sigla": "AG",
+      "nome": "Agrigento",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.84
+    },
+    {
+      "sigla": "AL",
+      "nome": "Alessandria",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.01
+    },
+    {
+      "sigla": "AN",
+      "nome": "Ancona",
+      "regione": "Marche",
+      "macroArea": "Centro",
+      "costCoefficient": 0.98
+    },
+    {
+      "sigla": "AO",
+      "nome": "Valle d'Aosta",
+      "regione": "Valle d'Aosta",
+      "macroArea": "Nord",
+      "costCoefficient": 1.08
+    },
+    {
+      "sigla": "AP",
+      "nome": "Ascoli Piceno",
+      "regione": "Marche",
+      "macroArea": "Centro",
+      "costCoefficient": 0.93
+    },
+    {
+      "sigla": "AQ",
+      "nome": "L'Aquila",
+      "regione": "Abruzzo",
+      "macroArea": "Centro",
+      "costCoefficient": 0.95
+    },
+    {
+      "sigla": "AR",
+      "nome": "Arezzo",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 0.98
+    },
+    {
+      "sigla": "AT",
+      "nome": "Asti",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.0
+    },
+    {
+      "sigla": "AV",
+      "nome": "Avellino",
+      "regione": "Campania",
+      "macroArea": "Sud",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "BA",
+      "nome": "Bari",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.93
+    },
+    {
+      "sigla": "BG",
+      "nome": "Bergamo",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.09
+    },
+    {
+      "sigla": "BI",
+      "nome": "Biella",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 0.98
+    },
+    {
+      "sigla": "BL",
+      "nome": "Belluno",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "BN",
+      "nome": "Benevento",
+      "regione": "Campania",
+      "macroArea": "Sud",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "BO",
+      "nome": "Bologna",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.15
+    },
+    {
+      "sigla": "BR",
+      "nome": "Brindisi",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "BS",
+      "nome": "Brescia",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.08
+    },
+    {
+      "sigla": "BT",
+      "nome": "Barletta-Andria-Trani",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.87
+    },
+    {
+      "sigla": "BZ",
+      "nome": "Bolzano",
+      "regione": "Trentino-Alto Adige",
+      "macroArea": "Nord",
+      "costCoefficient": 1.2
+    },
+    {
+      "sigla": "CA",
+      "nome": "Cagliari",
+      "regione": "Sardegna",
+      "macroArea": "Isole",
+      "costCoefficient": 0.93
+    },
+    {
+      "sigla": "CB",
+      "nome": "Campobasso",
+      "regione": "Molise",
+      "macroArea": "Sud",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "CE",
+      "nome": "Caserta",
+      "regione": "Campania",
+      "macroArea": "Sud",
+      "costCoefficient": 0.87
+    },
+    {
+      "sigla": "CH",
+      "nome": "Chieti",
+      "regione": "Abruzzo",
+      "macroArea": "Centro",
+      "costCoefficient": 0.92
+    },
+    {
+      "sigla": "CL",
+      "nome": "Caltanissetta",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.82
+    },
+    {
+      "sigla": "CN",
+      "nome": "Cuneo",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "CO",
+      "nome": "Como",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.1
+    },
+    {
+      "sigla": "CR",
+      "nome": "Cremona",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "CS",
+      "nome": "Cosenza",
+      "regione": "Calabria",
+      "macroArea": "Sud",
+      "costCoefficient": 0.84
+    },
+    {
+      "sigla": "CT",
+      "nome": "Catania",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.9
+    },
+    {
+      "sigla": "CZ",
+      "nome": "Catanzaro",
+      "regione": "Calabria",
+      "macroArea": "Sud",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "EN",
+      "nome": "Enna",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.8
+    },
+    {
+      "sigla": "FC",
+      "nome": "Forlì-Cesena",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "FE",
+      "nome": "Ferrara",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "FG",
+      "nome": "Foggia",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "FI",
+      "nome": "Firenze",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 1.14
+    },
+    {
+      "sigla": "FM",
+      "nome": "Fermo",
+      "regione": "Marche",
+      "macroArea": "Centro",
+      "costCoefficient": 0.91
+    },
+    {
+      "sigla": "FR",
+      "nome": "Frosinone",
+      "regione": "Lazio",
+      "macroArea": "Centro",
+      "costCoefficient": 0.9
+    },
+    {
+      "sigla": "GE",
+      "nome": "Genova",
+      "regione": "Liguria",
+      "macroArea": "Nord",
+      "costCoefficient": 1.08
+    },
+    {
+      "sigla": "GO",
+      "nome": "Gorizia",
+      "regione": "Friuli-Venezia Giulia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.0
+    },
+    {
+      "sigla": "GR",
+      "nome": "Grosseto",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 0.97
+    },
+    {
+      "sigla": "IM",
+      "nome": "Imperia",
+      "regione": "Liguria",
+      "macroArea": "Nord",
+      "costCoefficient": 1.04
+    },
+    {
+      "sigla": "IS",
+      "nome": "Isernia",
+      "regione": "Molise",
+      "macroArea": "Sud",
+      "costCoefficient": 0.84
+    },
+    {
+      "sigla": "KR",
+      "nome": "Crotone",
+      "regione": "Calabria",
+      "macroArea": "Sud",
+      "costCoefficient": 0.82
+    },
+    {
+      "sigla": "LC",
+      "nome": "Lecco",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.07
+    },
+    {
+      "sigla": "LE",
+      "nome": "Lecce",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.88
+    },
+    {
+      "sigla": "LI",
+      "nome": "Livorno",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 0.99
+    },
+    {
+      "sigla": "LO",
+      "nome": "Lodi",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "LT",
+      "nome": "Latina",
+      "regione": "Lazio",
+      "macroArea": "Centro",
+      "costCoefficient": 0.93
+    },
+    {
+      "sigla": "LU",
+      "nome": "Lucca",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 1.01
+    },
+    {
+      "sigla": "MB",
+      "nome": "Monza e Brianza",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.12
+    },
+    {
+      "sigla": "MC",
+      "nome": "Macerata",
+      "regione": "Marche",
+      "macroArea": "Centro",
+      "costCoefficient": 0.92
+    },
+    {
+      "sigla": "ME",
+      "nome": "Messina",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.87
+    },
+    {
+      "sigla": "MI",
+      "nome": "Milano",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.25
+    },
+    {
+      "sigla": "MN",
+      "nome": "Mantova",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "MO",
+      "nome": "Modena",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.08
+    },
+    {
+      "sigla": "MS",
+      "nome": "Massa-Carrara",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 0.98
+    },
+    {
+      "sigla": "MT",
+      "nome": "Matera",
+      "regione": "Basilicata",
+      "macroArea": "Sud",
+      "costCoefficient": 0.88
+    },
+    {
+      "sigla": "NA",
+      "nome": "Napoli",
+      "regione": "Campania",
+      "macroArea": "Sud",
+      "costCoefficient": 0.96
+    },
+    {
+      "sigla": "NO",
+      "nome": "Novara",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.04
+    },
+    {
+      "sigla": "NU",
+      "nome": "Nuoro",
+      "regione": "Sardegna",
+      "macroArea": "Isole",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "OR",
+      "nome": "Oristano",
+      "regione": "Sardegna",
+      "macroArea": "Isole",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "PA",
+      "nome": "Palermo",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.92
+    },
+    {
+      "sigla": "PC",
+      "nome": "Piacenza",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.04
+    },
+    {
+      "sigla": "PD",
+      "nome": "Padova",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.07
+    },
+    {
+      "sigla": "PE",
+      "nome": "Pescara",
+      "regione": "Abruzzo",
+      "macroArea": "Centro",
+      "costCoefficient": 0.96
+    },
+    {
+      "sigla": "PG",
+      "nome": "Perugia",
+      "regione": "Umbria",
+      "macroArea": "Centro",
+      "costCoefficient": 0.94
+    },
+    {
+      "sigla": "PI",
+      "nome": "Pisa",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "PN",
+      "nome": "Pordenone",
+      "regione": "Friuli-Venezia Giulia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "PO",
+      "nome": "Prato",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "PR",
+      "nome": "Parma",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.07
+    },
+    {
+      "sigla": "PT",
+      "nome": "Pistoia",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 0.99
+    },
+    {
+      "sigla": "PU",
+      "nome": "Pesaro e Urbino",
+      "regione": "Marche",
+      "macroArea": "Centro",
+      "costCoefficient": 0.96
+    },
+    {
+      "sigla": "PV",
+      "nome": "Pavia",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.04
+    },
+    {
+      "sigla": "PZ",
+      "nome": "Potenza",
+      "regione": "Basilicata",
+      "macroArea": "Sud",
+      "costCoefficient": 0.87
+    },
+    {
+      "sigla": "RA",
+      "nome": "Ravenna",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.04
+    },
+    {
+      "sigla": "RC",
+      "nome": "Reggio Calabria",
+      "regione": "Calabria",
+      "macroArea": "Sud",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "RE",
+      "nome": "Reggio Emilia",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.06
+    },
+    {
+      "sigla": "RG",
+      "nome": "Ragusa",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "RI",
+      "nome": "Rieti",
+      "regione": "Lazio",
+      "macroArea": "Centro",
+      "costCoefficient": 0.89
+    },
+    {
+      "sigla": "RM",
+      "nome": "Roma",
+      "regione": "Lazio",
+      "macroArea": "Centro",
+      "costCoefficient": 1.18
+    },
+    {
+      "sigla": "RN",
+      "nome": "Rimini",
+      "regione": "Emilia-Romagna",
+      "macroArea": "Nord",
+      "costCoefficient": 1.05
+    },
+    {
+      "sigla": "RO",
+      "nome": "Rovigo",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 0.98
+    },
+    {
+      "sigla": "SA",
+      "nome": "Salerno",
+      "regione": "Campania",
+      "macroArea": "Sud",
+      "costCoefficient": 0.9
+    },
+    {
+      "sigla": "SI",
+      "nome": "Siena",
+      "regione": "Toscana",
+      "macroArea": "Centro",
+      "costCoefficient": 1.05
+    },
+    {
+      "sigla": "SO",
+      "nome": "Sondrio",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.01
+    },
+    {
+      "sigla": "SP",
+      "nome": "La Spezia",
+      "regione": "Liguria",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "SR",
+      "nome": "Siracusa",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.87
+    },
+    {
+      "sigla": "SS",
+      "nome": "Sassari",
+      "regione": "Sardegna",
+      "macroArea": "Isole",
+      "costCoefficient": 0.9
+    },
+    {
+      "sigla": "SU",
+      "nome": "Sud Sardegna",
+      "regione": "Sardegna",
+      "macroArea": "Isole",
+      "costCoefficient": 0.84
+    },
+    {
+      "sigla": "SV",
+      "nome": "Savona",
+      "regione": "Liguria",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "TA",
+      "nome": "Taranto",
+      "regione": "Puglia",
+      "macroArea": "Sud",
+      "costCoefficient": 0.86
+    },
+    {
+      "sigla": "TE",
+      "nome": "Teramo",
+      "regione": "Abruzzo",
+      "macroArea": "Centro",
+      "costCoefficient": 0.92
+    },
+    {
+      "sigla": "TN",
+      "nome": "Trento",
+      "regione": "Trentino-Alto Adige",
+      "macroArea": "Nord",
+      "costCoefficient": 1.12
+    },
+    {
+      "sigla": "TO",
+      "nome": "Torino",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.12
+    },
+    {
+      "sigla": "TP",
+      "nome": "Trapani",
+      "regione": "Sicilia",
+      "macroArea": "Isole",
+      "costCoefficient": 0.85
+    },
+    {
+      "sigla": "TR",
+      "nome": "Terni",
+      "regione": "Umbria",
+      "macroArea": "Centro",
+      "costCoefficient": 0.92
+    },
+    {
+      "sigla": "TS",
+      "nome": "Trieste",
+      "regione": "Friuli-Venezia Giulia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.06
+    },
+    {
+      "sigla": "TV",
+      "nome": "Treviso",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.06
+    },
+    {
+      "sigla": "UD",
+      "nome": "Udine",
+      "regione": "Friuli-Venezia Giulia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.03
+    },
+    {
+      "sigla": "VA",
+      "nome": "Varese",
+      "regione": "Lombardia",
+      "macroArea": "Nord",
+      "costCoefficient": 1.07
+    },
+    {
+      "sigla": "VB",
+      "nome": "Verbano-Cusio-Ossola",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 1.02
+    },
+    {
+      "sigla": "VC",
+      "nome": "Vercelli",
+      "regione": "Piemonte",
+      "macroArea": "Nord",
+      "costCoefficient": 0.99
+    },
+    {
+      "sigla": "VE",
+      "nome": "Venezia",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.1
+    },
+    {
+      "sigla": "VI",
+      "nome": "Vicenza",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.06
+    },
+    {
+      "sigla": "VR",
+      "nome": "Verona",
+      "regione": "Veneto",
+      "macroArea": "Nord",
+      "costCoefficient": 1.07
+    },
+    {
+      "sigla": "VT",
+      "nome": "Viterbo",
+      "regione": "Lazio",
+      "macroArea": "Centro",
+      "costCoefficient": 0.91
+    },
+    {
+      "sigla": "VV",
+      "nome": "Vibo Valentia",
+      "regione": "Calabria",
+      "macroArea": "Sud",
+      "costCoefficient": 0.82
+    }
+  ],
+  "prestations": [
+    {
+      "id": "auto_tagliando",
+      "categoryId": "auto",
+      "name": "Tagliando Completo Standard",
+      "description": "Olio motore sintetico, 4 filtri (olio, aria, abitacolo, carburante) e controlli di sicurezza",
+      "unit": "intervento",
+      "basePrice": 250,
+      "realisticRange": [
+        180,
+        350
+      ],
+      "validationBounds": [
+        80,
+        800
+      ]
+    },
+    {
+      "id": "auto_freni",
+      "categoryId": "auto",
+      "name": "Sostituzione Pastiglie e Dischi Anteriori",
+      "description": "Coppia dischi anteriori autoventilanti, pastiglie freno nuove e manodopera",
+      "unit": "intervento",
+      "basePrice": 280,
+      "realisticRange": [
+        200,
+        400
+      ],
+      "validationBounds": [
+        100,
+        900
+      ]
+    },
+    {
+      "id": "auto_distribuzione",
+      "categoryId": "auto",
+      "name": "Cinghia Distribuzione + Pompa Acqua",
+      "description": "Kit distribuzione completo, pompa liquido refrigerante e cinghia servizi",
+      "unit": "intervento",
+      "basePrice": 550,
+      "realisticRange": [
+        400,
+        850
+      ],
+      "validationBounds": [
+        200,
+        1800
+      ]
+    },
+    {
+      "id": "auto_frizione",
+      "categoryId": "auto",
+      "name": "Sostituzione Kit Frizione Completo",
+      "description": "Disco frizione, spingidisco, cuscinetto idraulico di disinnesto e manodopera",
+      "unit": "intervento",
+      "basePrice": 600,
+      "realisticRange": [
+        450,
+        950
+      ],
+      "validationBounds": [
+        200,
+        2000
+      ]
+    },
+    {
+      "id": "auto_clima",
+      "categoryId": "auto",
+      "name": "Ricarica Climatizzatore Auto",
+      "description": "Vuoto impianto, ricarica gas refrigerante R134a/R1234yf e test di tenuta",
+      "unit": "intervento",
+      "basePrice": 90,
+      "realisticRange": [
+        60,
+        140
+      ],
+      "validationBounds": [
+        30,
+        250
+      ]
+    },
+    {
+      "id": "auto_batteria",
+      "categoryId": "auto",
+      "name": "Sostituzione Batteria 60-70 Ah",
+      "description": "Batteria piombo/calcio o EFB da 60-70 Ah con installazione e smaltimento esausta",
+      "unit": "intervento",
+      "basePrice": 130,
+      "realisticRange": [
+        90,
+        190
+      ],
+      "validationBounds": [
+        50,
+        400
+      ]
+    },
+    {
+      "id": "casa_imbiancatura",
+      "categoryId": "casa",
+      "name": "Imbiancatura Appartamento (ca. 70 mq)",
+      "description": "Stuccatura crepe, rasatura leggera, isolante e due mani di idropittura bianca lavabile",
+      "unit": "appartamento",
+      "basePrice": 900,
+      "realisticRange": [
+        650,
+        1400
+      ],
+      "validationBounds": [
+        250,
+        3500
+      ]
+    },
+    {
+      "id": "casa_caldaia",
+      "categoryId": "casa",
+      "name": "Sostituzione Caldaia a Condensazione",
+      "description": "Fornitura e posa caldaia a condensazione 24 kW classe A con defangatore e certificato DiCo",
+      "unit": "impianto",
+      "basePrice": 1800,
+      "realisticRange": [
+        1300,
+        2600
+      ],
+      "validationBounds": [
+        700,
+        5000
+      ]
+    },
+    {
+      "id": "casa_idraulico_perdita",
+      "categoryId": "casa",
+      "name": "Riparazione Perdita e Flessibili",
+      "description": "Uscita pronto intervento idraulico, riparazione perdita sotto lavello o sostituzione flessibili",
+      "unit": "intervento",
+      "basePrice": 120,
+      "realisticRange": [
+        80,
+        180
+      ],
+      "validationBounds": [
+        40,
+        500
+      ]
+    },
+    {
+      "id": "casa_disotturazione",
+      "categoryId": "casa",
+      "name": "Disotturazione Scarico WC o Lavello",
+      "description": "Intervento con molla idropneumatica o canal-jet per liberare scarico otturato",
+      "unit": "intervento",
+      "basePrice": 150,
+      "realisticRange": [
+        100,
+        230
+      ],
+      "validationBounds": [
+        50,
+        600
+      ]
+    },
+    {
+      "id": "casa_impianto_elettrico",
+      "categoryId": "casa",
+      "name": "Rifacimento Impianto Elettrico (Bilocale)",
+      "description": "Rimozione cavi vecchi, sfilaggio/infilaggio a norma, nuovo quadro con salvavita e certificazione 37/08",
+      "unit": "appartamento",
+      "basePrice": 3200,
+      "realisticRange": [
+        2400,
+        4500
+      ],
+      "validationBounds": [
+        1000,
+        10000
+      ]
+    },
+    {
+      "id": "casa_serratura",
+      "categoryId": "casa",
+      "name": "Sostituzione Serratura Cilindro Europeo",
+      "description": "Installazione serratura di sicurezza con cilindro europeo antibumping, defender e chiavi protette",
+      "unit": "intervento",
+      "basePrice": 380,
+      "realisticRange": [
+        280,
+        550
+      ],
+      "validationBounds": [
+        120,
+        1200
+      ]
+    },
+    {
+      "id": "dentista_igiene",
+      "categoryId": "dentista",
+      "name": "Pulizia Denti / Ablazione Tartaro",
+      "description": "Seduta completa di detartrasi a ultrasuoni, lucidatura smalto e applicazione pasta fluoro",
+      "unit": "seduta",
+      "basePrice": 85,
+      "realisticRange": [
+        60,
+        120
+      ],
+      "validationBounds": [
+        30,
+        250
+      ]
+    },
+    {
+      "id": "dentista_otturazione",
+      "categoryId": "dentista",
+      "name": "Otturazione Carie Semplice (Composito)",
+      "description": "Anestesia locale, rimozione tessuto cariato e ricostruzione estetica in resina composita",
+      "unit": "dente",
+      "basePrice": 120,
+      "realisticRange": [
+        80,
+        180
+      ],
+      "validationBounds": [
+        40,
+        400
+      ]
+    },
+    {
+      "id": "dentista_devitalizzazione",
+      "categoryId": "dentista",
+      "name": "Devitalizzazione Dente (Endodonzia)",
+      "description": "Sagomatura dei canali radicolari, disinfezione, sigillatura termoplastica e radiografie endodontiche",
+      "unit": "dente",
+      "basePrice": 250,
+      "realisticRange": [
+        180,
+        380
+      ],
+      "validationBounds": [
+        80,
+        800
+      ]
+    },
+    {
+      "id": "dentista_impianto",
+      "categoryId": "dentista",
+      "name": "Impianto Dentale Singolo Completo",
+      "description": "Vite in titanio osteointegrata biocompatibile, moncone transmucoso e corona in ceramica/zirconio",
+      "unit": "impianto",
+      "basePrice": 1450,
+      "realisticRange": [
+        1100,
+        2100
+      ],
+      "validationBounds": [
+        500,
+        4000
+      ]
+    },
+    {
+      "id": "dentista_apparecchio",
+      "categoryId": "dentista",
+      "name": "Allineatori Trasparenti (Ciclo Completo)",
+      "description": "Studio del caso con scansione 3D intraorale, set completo di mascherine invisibili e visite periodiche",
+      "unit": "trattamento completo",
+      "basePrice": 3200,
+      "realisticRange": [
+        2200,
+        4800
+      ],
+      "validationBounds": [
+        1000,
+        8000
+      ]
+    },
+    {
+      "id": "dentista_estrazione",
+      "categoryId": "dentista",
+      "name": "Estrazione Dente del Giudizio",
+      "description": "Avulsione chirurgica di terzo molare incluso o semi-incluso con anestesia locale e punti di sutura",
+      "unit": "dente",
+      "basePrice": 160,
+      "realisticRange": [
+        100,
+        280
+      ],
+      "validationBounds": [
+        50,
+        600
+      ]
+    },
+    {
+      "id": "vet_visita",
+      "categoryId": "veterinario",
+      "name": "Visita Generale Cane o Gatto",
+      "description": "Esame clinico obiettivo completo, controllo peso, temperatura, auscultazione cardiaca e linfonodi",
+      "unit": "visita",
+      "basePrice": 45,
+      "realisticRange": [
+        35,
+        65
+      ],
+      "validationBounds": [
+        20,
+        150
+      ]
+    },
+    {
+      "id": "vet_vaccino",
+      "categoryId": "veterinario",
+      "name": "Vaccinazione Annuale con Richiamo",
+      "description": "Visita pre-vaccinale, somministrazione vaccino core (polivalente cane o trivalente gatto) e registrazione",
+      "unit": "vaccinazione",
+      "basePrice": 50,
+      "realisticRange": [
+        35,
+        75
+      ],
+      "validationBounds": [
+        25,
+        140
+      ]
+    },
+    {
+      "id": "vet_microchip",
+      "categoryId": "veterinario",
+      "name": "Applicazione Microchip e Iscrizione Anagrafe",
+      "description": "Inserimento transponder sottocutaneo standard ISO e iscrizione all'Anagrafe Canina/Felina regionale",
+      "unit": "prestazione",
+      "basePrice": 35,
+      "realisticRange": [
+        25,
+        50
+      ],
+      "validationBounds": [
+        15,
+        100
+      ]
+    },
+    {
+      "id": "vet_sterilizzazione",
+      "categoryId": "veterinario",
+      "name": "Sterilizzazione Gatta / Castrazione Cane",
+      "description": "Intervento chirurgico in anestesia generale gassosa con monitoraggio multiparametrico e terapia post-operatoria",
+      "unit": "intervento",
+      "basePrice": 180,
+      "realisticRange": [
+        130,
+        280
+      ],
+      "validationBounds": [
+        70,
+        600
+      ]
+    },
+    {
+      "id": "vet_detartrasi",
+      "categoryId": "veterinario",
+      "name": "Detartrasi Denti Animale in Anestesia",
+      "description": "Ablazione del tartaro a ultrasuoni e lucidatura denti sotto sedazione/anestesia monitorata",
+      "unit": "intervento",
+      "basePrice": 160,
+      "realisticRange": [
+        110,
+        250
+      ],
+      "validationBounds": [
+        60,
+        500
+      ]
+    },
+    {
+      "id": "vet_esami_sangue",
+      "categoryId": "veterinario",
+      "name": "Profilo Esami Sangue Completo",
+      "description": "Prelievo ematico, esame emocromocitometrico e profilo biochimico generale (funzionalità epatica e renale)",
+      "unit": "esame",
+      "basePrice": 90,
+      "realisticRange": [
+        65,
+        130
+      ],
+      "validationBounds": [
+        35,
+        250
+      ]
+    },
+    {
+      "id": "cerimonia_menu",
+      "categoryId": "cerimonie",
+      "name": "Menu Ricevimento Nozze (a persona)",
+      "description": "Aperitivo di benvenuto a buffet, due primi piatti, un secondo di carne/pesce, buffet di dolci, torta nuziale e vini DOC inclusi",
+      "unit": "persona",
+      "basePrice": 110,
+      "realisticRange": [
+        85,
+        160
+      ],
+      "validationBounds": [
+        40,
+        350
+      ]
+    },
+    {
+      "id": "cerimonia_foto",
+      "categoryId": "cerimonie",
+      "name": "Servizio Foto e Video Matrimonio",
+      "description": "Copertura intera giornata con 2 fotografi professionisti, fotolibro sposi rilegato e video cinematografico in 4K",
+      "unit": "servizio completo",
+      "basePrice": 1600,
+      "realisticRange": [
+        1100,
+        2500
+      ],
+      "validationBounds": [
+        400,
+        5500
+      ]
+    },
+    {
+      "id": "cerimonia_fiori",
+      "categoryId": "cerimonie",
+      "name": "Allestimento Floreale Chiesa e Location",
+      "description": "Bouquet sposa, bottoniere sposo e testimoni, composizioni floreali per altare, banchi navata e centrotavola ricevimento",
+      "unit": "allestimento",
+      "basePrice": 1200,
+      "realisticRange": [
+        750,
+        2000
+      ],
+      "validationBounds": [
+        250,
+        5000
+      ]
+    },
+    {
+      "id": "cerimonia_musica",
+      "categoryId": "cerimonie",
+      "name": "DJ Set e Animazione Musicale",
+      "description": "Impianto audio e luci professionale, DJ set per cerimonia, aperitivo, cena e festa open bar con gestione pratiche SIAE",
+      "unit": "evento",
+      "basePrice": 650,
+      "realisticRange": [
+        450,
+        1000
+      ],
+      "validationBounds": [
+        150,
+        2500
+      ]
+    },
+    {
+      "id": "cerimonia_auto",
+      "categoryId": "cerimonie",
+      "name": "Noleggio Auto Sposi con Autista",
+      "description": "Vettura di rappresentanza d'epoca o berlina premium con conducente per trasferimento casa sposa, cerimonia e shooting fotografico",
+      "unit": "giornata",
+      "basePrice": 450,
+      "realisticRange": [
+        300,
+        700
+      ],
+      "validationBounds": [
+        150,
+        1800
+      ]
+    },
+    {
+      "id": "cerimonia_bomboniere",
+      "categoryId": "cerimonie",
+      "name": "Bomboniere Confezionate con Confetti",
+      "description": "Oggetto ricordo artigianale o solidale, confezione elegante con nastro, bigliettino stampato e 5 confetti alla mandorla d'Avola",
+      "unit": "pezzo",
+      "basePrice": 10,
+      "realisticRange": [
+        6,
+        18
+      ],
+      "validationBounds": [
+        2,
+        60
+      ]
+    },
+    {
+      "id": "affitto_monolocale",
+      "categoryId": "affitti",
+      "name": "Canone Mensile Monolocale Arredato",
+      "description": "Canone mensile di locazione residenziale per appartamento monolocale arredato di circa 30-40 mq (utenze e spese condominiali escluse)",
+      "unit": "mese",
+      "basePrice": 520,
+      "realisticRange": [
+        350,
+        850
+      ],
+      "validationBounds": [
+        180,
+        2000
+      ]
+    },
+    {
+      "id": "affitto_bilocale",
+      "categoryId": "affitti",
+      "name": "Canone Mensile Bilocale Arredato",
+      "description": "Canone mensile di locazione residenziale per bilocale arredato con soggiorno, camera e servizi di circa 55-65 mq (spese escluse)",
+      "unit": "mese",
+      "basePrice": 720,
+      "realisticRange": [
+        450,
+        1250
+      ],
+      "validationBounds": [
+        250,
+        2800
+      ]
+    },
+    {
+      "id": "affitto_trilocale",
+      "categoryId": "affitti",
+      "name": "Canone Mensile Trilocale",
+      "description": "Canone mensile per appartamento trilocale di circa 80-95 mq con due camere da letto per famiglie o lavoratori (spese escluse)",
+      "unit": "mese",
+      "basePrice": 920,
+      "realisticRange": [
+        550,
+        1650
+      ],
+      "validationBounds": [
+        300,
+        4000
+      ]
+    },
+    {
+      "id": "affitto_stanza",
+      "categoryId": "affitti",
+      "name": "Canone Stanza Singola per Studenti/Lavoratori",
+      "description": "Canone mensile per camera singola ad uso esclusivo in appartamento condiviso con cucina e bagno (spese escluse)",
+      "unit": "mese",
+      "basePrice": 380,
+      "realisticRange": [
+        250,
+        650
+      ],
+      "validationBounds": [
+        120,
+        1100
+      ]
+    },
+    {
+      "id": "affitto_posto_auto",
+      "categoryId": "affitti",
+      "name": "Canone Mensile Box Auto / Posto Auto Riservato",
+      "description": "Canone mensile per box auto singolo chiuso o posto auto delimitato in garage o cortile condominiale",
+      "unit": "mese",
+      "basePrice": 110,
+      "realisticRange": [
+        60,
+        200
+      ],
+      "validationBounds": [
+        30,
+        450
+      ]
+    },
+    {
+      "id": "affitto_quadrilocale",
+      "categoryId": "affitti",
+      "name": "Canone Mensile Quadrilocale",
+      "description": "Canone mensile per appartamento quadrilocale di oltre 100 mq (spese escluse)",
+      "unit": "mese",
+      "basePrice": 1200,
+      "realisticRange": [
+        800,
+        1800
+      ],
+      "validationBounds": [
+        400,
+        5000
+      ]
+    }
+  ]
+}
